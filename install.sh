@@ -13,7 +13,7 @@ INSTALL(){
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install -y $PLAYER
 echo "Installing to $RADIODIR"
-cp -R $WORKDIR/radio $ROMSDIR/radio
+cp $WORKDIR/radio $ROMSDIR/radio
 }
 CREATEMENU(){
 echo " = = = = = = = = = = = = = = = = = = = = "
