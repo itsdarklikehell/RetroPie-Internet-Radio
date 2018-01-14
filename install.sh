@@ -20,8 +20,8 @@ echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Setting up EmulationStation menu options...(STILL WIP)..."
 echo " = = = = = = = = = = = = = = = = = = = = "
 mkdir -p $CONFIGDIR
-cp -R $WORKDIR/menu/es_systems.cfg $CONFIGDIR/es_systems.cfg
-cp -R $WORKDIR/menu/emulators.cfg $CONFIGDIR/emulators.cfg
+cp -u $WORKDIR/menu/es_systems.cfg $CONFIGDIR/es_systems.cfg
+cp -u $WORKDIR/menu/emulators.cfg $CONFIGDIR/emulators.cfg
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Please edit /opt/retropie/configs/all/emulationstation/es_systems.cfg so that is includes the following:"
 cat $WORKDIR/menu/es_systems.cfg
@@ -32,9 +32,9 @@ CREATETHEME(){
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Installing custom emulationstation theme..."
 echo " = = = = = = = = = = = = = = = = = = = = "
-cp $CURNTHEME $NEWTHEME
-cp $NEWART $NEWTHEME/radio/art
-cp $WORKDIR/theme/theme.xml $NEWTHEME/radio/theme.xml
+cp -u $CURNTHEME $NEWTHEME
+cp -u $NEWART $NEWTHEME/radio/art
+cp -u $WORKDIR/theme/theme.xml $NEWTHEME/radio/theme.xml
 echo "A new cutom theme has been set up at $NEWTHEME"
 echo "Select it in emulationstation to use it"
 read -rsp $'Press any key to continue...\n' -n 1 key
