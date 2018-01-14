@@ -2,10 +2,10 @@
 CONFIGURE(){
 WORKDIR=~/RetroPie-Internet-Radio
 ROMSDIR=~/RetroPie/roms
-RADIODIR="$ROMSDIR"/radio
+RADIODIR=~/RetroPie/roms/radio
 CURNTHEME=/etc/emulationstation/themes/carbon
 NEWTHEME=/opt/retropie/configs/all/emulationstation/themes/carbon-custom
-NEWART="$WORKINGDIR"/theme/art
+NEWART=~/RetroPie-Internet-Radio/theme/art
 CONFIGDIR=/opt/retropie/configs/radio
 PLAYER="vlc"
 }
