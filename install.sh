@@ -24,7 +24,7 @@ cp $WORKDIR/menu/es_systems.cfg $CONFIGDIR/es_systems.cfg
 cp $WORKDIR/menu/emulators.cfg $CONFIGDIR/emulators.cfg
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Please edit /opt/retropie/configs/all/emulationstation/es_systems.cfg so that is includes the following:"
-cat $WORKINGDIR/menu/es_systems.cfg
+cat $WORKDIR/menu/es_systems.cfg
 echo " = = = = = = = = = = = = = = = = = = = = "
 read -rsp $'Press any key to continue...\n' -n 1 key
 }
