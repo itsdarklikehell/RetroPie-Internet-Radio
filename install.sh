@@ -13,15 +13,15 @@ INSTALL(){
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install -y $PLAYER
 echo "Installing to $RADIODIR"
-cp $WORKDIR/radio $ROMSDIR/radio
+cp -R $WORKDIR/radio $ROMSDIR/radio
 }
 CREATEMENU(){
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Setting up EmulationStation menu options...(STILL WIP)..."
 echo " = = = = = = = = = = = = = = = = = = = = "
 mkdir -p $CONFIGDIR
-cp $WORKDIR/menu/es_systems.cfg $CONFIGDIR/es_systems.cfg
-cp $WORKDIR/menu/emulators.cfg $CONFIGDIR/emulators.cfg
+cp -R $WORKDIR/menu/es_systems.cfg $CONFIGDIR/es_systems.cfg
+cp -R $WORKDIR/menu/emulators.cfg $CONFIGDIR/emulators.cfg
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Please edit /opt/retropie/configs/all/emulationstation/es_systems.cfg so that is includes the following:"
 cat $WORKDIR/menu/es_systems.cfg
