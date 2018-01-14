@@ -7,7 +7,7 @@ CURNTHEME="/etc/emulationstation/themes/carbon"
 NEWTHEME="/opt/retropie/configs/all/emulationstation/themes/carbon-custom"
 NEWART="$WORKINGDIR/theme/art"
 CONFIGDIR="/opt/retropie/configs/radio"
-PLAYER="cvlc"
+PLAYER="vlc"
 }
 INSTALL(){
 sudo apt-get update && sudo apt-get upgrade -y
@@ -44,4 +44,3 @@ CONFIGURE
 INSTALL
 CREATEMENU
 CREATETHEME
-
