@@ -6,6 +6,3 @@ alsamixer
 }
 
 SET_VOLUME_MANUAL
-
-
-
