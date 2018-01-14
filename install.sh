@@ -30,7 +30,7 @@ read -rsp $'Press any key to continue...\n' -n 1 key
 }
 CREATETHEME(){
 echo " = = = = = = = = = = = = = = = = = = = = "
-echo "Installing custom emulationstation theme...(STILL WIP)"
+echo "Installing custom emulationstation theme..."
 echo " = = = = = = = = = = = = = = = = = = = = "
 cp $CURNTHEME $NEWTHEME
 cp $NEWART $NEWTHEME/radio/art
