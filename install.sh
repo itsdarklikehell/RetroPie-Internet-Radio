@@ -32,9 +32,9 @@ CREATETHEME(){
 echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Installing custom emulationstation theme...(STILL WIP)"
 echo " = = = = = = = = = = = = = = = = = = = = "
-cp -R $CURNTHEME $NEWTHEME
-cp -R $NEWART $NEWTHEME/radio/art
-cp -R $WORKDIR/theme/theme.xml $NEWTHEME/radio/theme.xml
+cp $CURNTHEME $NEWTHEME
+cp $NEWART $NEWTHEME/radio/art
+cp $WORKDIR/theme/theme.xml $NEWTHEME/radio/theme.xml
 echo "A new cutom theme has been set up at $NEWTHEME"
 echo "Select it in emulationstation to use it"
 read -rsp $'Press any key to continue...\n' -n 1 key
