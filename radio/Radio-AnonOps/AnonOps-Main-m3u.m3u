@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:0,DJ RadioAnonOps-AnonOps
+http://stream.anonops.com:8080/AnonOps
+#EXTINF:0,DJ RadioAnonOps-News
+http://stream.anonops.com:8080/AnonNews
