@@ -1,7 +1,6 @@
 #!/bin/bash
 CONFIGURE(){
 WORKDIR=~/RetroPie-Internet-Radio
-ROMSDIR=~/RetroPie/roms
 RADIODIR=~/RetroPie/roms/radio
 CURNTHEME=/etc/emulationstation/themes/carbon
 NEWTHEME=/opt/retropie/configs/all/emulationstation/themes/carbon-custom
@@ -28,7 +27,7 @@ echo " = = = = = = = = = = = = = = = = = = = = "
 echo "Please edit /opt/retropie/configs/all/emulationstation/es_systems.cfg so that is includes the following:"
 cat $WORKDIR/menu/es_systems.cfg
 echo " = = = = = = = = = = = = = = = = = = = = "
-read -rsp $'Press any key to continue...\n' -n 1 key
+read -rsp $'Press any key to continue...\n' -n 1
 }
 CREATETHEME(){
 echo " = = = = = = = = = = = = = = = = = = = = "
@@ -41,7 +40,7 @@ cp -TR $WORKDIR/theme/theme.xml $NEWTHEME/radio/theme.xml
 #chown -R pi:pi $NEWTHEME
 echo "A new custom theme has been set up at $NEWTHEME"
 echo "Select it in emulationstation to use it"
-read -rsp $'Press any key to continue...\n' -n 1 key
+read -rsp $'Press any key to continue...\n' -n 1
 }
 ##############################
 CONFIGURE
