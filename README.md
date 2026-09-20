@@ -7,3 +7,11 @@ Which will be loaded by emultors.cfg and es_systems.cfg
 
 There is also a 'controls' dir in which there are some shell scripts to control (c)vlc player.
 
+
+---
+
+## 🎥 Gource Visualization
+
+De ontwikkelhistorie van dit project in een film:
+
+<video src="https://raw.githubusercontent.com/itsdarklikehell/RetroPie-Internet-Radio/master/gource.mp4" controls width="100%"></video>
