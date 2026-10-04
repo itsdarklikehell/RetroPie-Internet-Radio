@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 CONFIGURE(){
 WORKDIR=~/RetroPie-Internet-Radio
 RADIODIR=~/RetroPie/roms/radio
